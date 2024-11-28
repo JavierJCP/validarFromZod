@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #202020;
+}
+
+form {
+  width: 20rem;
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+p.error {
+  color: crimson;
+}
